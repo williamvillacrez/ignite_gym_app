@@ -2,14 +2,11 @@ import { Router } from 'express'
 const router = Router()
 
 //De la raiz renderiza un archivo llamado index.ejs
-router.get('/inicio', (req, res) =>{
+router.get('/', (req, res) =>{
     res.render('index',{title: 'Mi primer proyecto en NodeJS'});
 });
-router.get('/servicios', (req, res) =>{
-    res.render('servicios',{title: 'Servicios'});
-});
-router.get('/planes', (req, res) =>{
-    res.render('planes',{title: 'Planes'});
+router.get('/about', (req, res) =>{
+    res.render('about',{title: 'About us'});
 });
 router.get('/productos', (req, res) =>{
     res.render('productos',{title: 'Productos'});
