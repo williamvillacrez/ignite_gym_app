@@ -1,0 +1,80 @@
+/* css/producto.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('/img/fondo4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Sin margen */
+    padding: 0px; /* Espacio alrededor del contenido */
+}
+
+/* Cabecera */
+.title {
+    color: white;
+    text-align:left;
+    font-size: 40px;
+    margin: 25px;
+}
+
+/* Contenedor de productos */
+.productos {
+    display: grid; /* Usar grid para el layout */
+    grid-template-columns: repeat(4, 1fr); /* 2 columnas */
+    grid-template-rows: repeat(2, auto); /* 3 filas automáticas */
+    gap: 30px; /* Espacio entre las cajas */
+    justify-items: center; /* Centra los productos dentro de sus celdas */
+    margin: 50px;
+}
+
+/* Estilo para cada caja de producto */
+.producto {
+    background-color:  #597931 ; /* Color de fondo blanco */
+    border: 2px solid black; /* Borde gris claro */
+    border-radius: 25px; /* Esquinas redondeadas */
+    padding: 35px; /* Espacio interno */
+    text-align: center; /* Centra el texto */
+    width: 330px; /* Ancho fijo de las cajas */
+    height: 470px; /* Altura fija para las cajas de productos */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s; /* Transición suave al hacer hover */
+}
+
+.producto:hover {
+    transform: translateY(-5px); /* Eleva ligeramente al pasar el mouse */
+}
+
+/* Estilo para las imágenes del producto */
+.producto img {
+    width: 200px; /* Se ajusta al ancho del contenedor */
+    height: 250px; /* Mantiene la relación de aspecto */
+    border-radius: 5px; /* Esquinas redondeadas para la imagen */
+}
+
+/* Estilo para el texto del producto */
+.producto p {
+    color:white;
+    margin: 10px; /* Margen superior e inferior */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita para resaltar */
+}
+
+/* Estilo para el botón */
+.producto button {
+    background-color: black ; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px 15px; /* Espacio interior */
+    margin: 10px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s; /* Transición suave al cambiar el fondo */
+    height: 40px;
+    width: 150px;
+}
+
+/* Cambia el color del botón al pasar el mouse */
+.producto button:hover {
+    background-color:  #28460b ; /* Color más oscuro al pasar el mouse */
+}
