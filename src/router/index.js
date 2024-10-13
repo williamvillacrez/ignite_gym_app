@@ -11,5 +11,8 @@ router.get('/about', (req, res) =>{
 router.get('/contact', (req, res) =>{
     res.render('contact',{title: 'Contactanos'});
 });
+router.get('/login', (req,res) =>{
+    res.render('login',{title:'Login'})
+})
 
 export default router
