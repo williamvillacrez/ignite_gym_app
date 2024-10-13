@@ -5,9 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/producto.css"> 
 </head>
 <body>
-    <h1><%- include('partials/navigation') %></h1>
-    
+    <div class="partial-navigation">
+        <%-include ('partials/navigation')%>
+    </div>
+    <h1 class="title">Conoce nuestros productos...</h1>
+    <main class="productos"> 
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento1.jpeg" alt="Producto 1" class="imagen-producto">
+            </div>
+            <p>Muscletech Nitro Tech</p>
+            <p>S/. 169.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento2.png" alt="Producto 2" class="imagen-producto">
+            </div>
+            <p>Omega 369 - 90 Softgel</p>
+            <p>S/. 119.20</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento3.png" alt="Producto 3" class="imagen-producto">
+            </div>
+            <p>Tomatodo 3en1 Mezclador De Proteina</p>
+            <p>S/. 70.90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento4.png" alt="Producto 4" class="imagen-producto">
+            </div>
+            <p>Isopure 3lb Proteina Isolatada 100% Original</p>
+            <p>S/. 170.90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento5.png" alt="Producto 5" class="imagen-producto">
+            </div>
+            <p>100% Whey Gold Standard 2lb Frutilla</p>
+            <p>S/. 220.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento6.png" alt="Producto 6" class="imagen-producto">
+            </div>
+            <p>L Carnitina 500mg Americano 120 Capsulas</p>
+            <p>S/. 90.50</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento7.png" alt="Producto 6" class="imagen-producto">
+            </div>
+            <p>Aminoácidos Proteínas 360 Cápsulas</p>
+            <p>S/. 100.00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="producto">
+            <div class="producto-imagen">
+                <img src="/img/suplemento8.png" alt="Producto 6" class="imagen-producto">
+            </div>
+            <p>Immunocal Platinium - Glutation + Cmp + Rmf</p>
+            <p>S/. 120.20</p>
+            <button>Comprar</button>
+        </div>
+    </main>
+    <h1><%- include('partials/footer') %></h1>
 </body>
 </html>
