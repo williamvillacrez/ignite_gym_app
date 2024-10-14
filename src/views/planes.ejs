@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/plan.css">
+
 </head>
+
 <body>
-    <h1><%- include('partials/navigation') %></h1>
-    
+    <div class="screen">
+        <header>
+            <div class="cont">
+                <h1>ELIGE <span>TU PLAN</span></h1>
+            </div>
+        </header>
+        <section id="nuestros-planes">
+            <div class="planes">
+                <div class="carta">
+                    <h2>Plan Smart</h3>
+                        <h5>Entrena cuando quieras<br>en una sola sede</h5>
+                        <h1 class="">S/70.00</h1>
+                        <button>COMPRAR</button>
+                        <h3>Beneficios Incluidos</h3>
+                        <div class="beneficios">
+                            <li>✅Acceso ilimitado a todas las áreas de peso libre e integrado - máquinas, pesas, discos
+                                y barras</li>
+                            <li>✅​Clases grupales con los profesores - Actívate, baila y reájate</li>
+                            <li>✅​Smart Fit App - Tu plan de entrenamiento personalizado</li>
+                            <li>✅​Smart Fit Go - Entrena donde y cuando quieras</li>
+                        </div>
+
+                </div>
+                <div class="carta">
+                    <h2>Plan Black</h2>
+                    <h5>Entrena en cualquiera de nuestros<br>gimnasios en América Latina</h5>
+                    <h1>S/99.90</h1>
+                    <button>COMPRAR</button>
+                    <h3>Beneficios Incluidos</h3>
+                    <div class="beneficios">
+                        <li>✅Entrena en todos los gimnasios de Smart Fit en Perú y Latinoamerica</li>
+                        <li>✅Acceso ilimitado a todas las áreas de peso libre e integrado - máquinas, pesas, discos y
+                            barras</li>
+                        <li>✅Clases personalizadas</li>
+                        <li>✅Smart Fit App - Tu plan de entrenamiento personalizado</li>
+                        <li>✅​Smart Fit Go - Entrana donde y cuando quieras</li>
+                        <li>✅​Relájate en los sillones de masajes</li>
+                        <li>✅​1 invitado al mes en el gimnasio</li>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </div>
 </body>
+<footer>
+    <%-include ('partials/footer')%>
+</footer>
+
 </html>
