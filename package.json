@@ -13,6 +13,7 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
+    "ignite_gym_app": "file:",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
