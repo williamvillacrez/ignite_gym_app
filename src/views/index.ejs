@@ -4,39 +4,323 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <script src="https://kit.fontawesome.com/646ac4fad6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="icon" href="../IMG/logo.jpg" type="image/png">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-    <h1><%- include('partials/navigation') %></h1>
-
-    <section class="banner">
-        <div class="content-banner">
-            <h2>"¡Transforma tu esfuerzo en resultados! 
-                <br> Cada repeticióm cuenta hacia la mejor versión de ti mismo."</h2>
-            <a href="#">INSCRIBIRSE</a>
+    <%- include('partials/navigation') %>
+    <%- include('partials/banner') %>
+    <!-- ********************************** -->
+      <!--            DATOS         -->
+      <!-- ********************************** -->
+          <div class="containeEEEEr">
+            <div class="boxX">
+                <div class="imgBoxX">
+                    <img src="../IMG/JOSHUAP.jpg" alt="">
+                </div>
+                <div class="contentTTT">
+                    <h2>Joshua Pereda L.</br>
+                    <span>Desarrollador full stack</span></h2>
+                </div>
+            </div>
+            <div class="boxX">
+              <div class="imgBoxX">
+                  <img src="../IMG/CIBERTEC1.jpg" alt="">
+              </div>
+              <div class="contentTTT">
+                  <h2>CIBERTEC</br>
+                    <span>COMPUTACION E INFORMATICA</span></h2>
+              </div>
+          </div>
+          </div>
+          
+           <!-- ********************************** -->
+      <!--              TABLA                -->
+      <!-- ********************************** -->
+      <section class="container container-feeatures">
+        <div class="card_wrappp">
+          <div class="card_headerr one">
+            <p><i class="fa-solid fa-robot"></i></p>
+          </div>
+          <div class="card_contenttt">
+            <h1 class="card_titleee"><b>MI PERSONA </b></h1>
+            <p class="card_texttt">Soy un estudiante de 19 años de  Sistemas con una pasión ferviente por la tecnología y su aplicación práctica. Me encuentro en el proceso de adquirir conocimientos sólidos en áreas fundamentales como el desarrollo de software, la gestión de bases de datos y la seguridad informática. Mi objetivo es combinar mi formación académica con experiencia práctica para contribuir al desarrollo de soluciones innovadoras y eficientes en el campo de la tecnología.</p>
+          </div>
         </div>
-    </section>
-
-    <h1 class="lema">Vive la experiencia <span class="gym">Ignite Gym:</span> El gimnasio para ti
-    </h1>
-
-    <main class="features">
-        <div class="features-content">
-            <div class="features-content-plan">
-                <img class="imagen" src="/img/imagen1.png" alt="">
-                <p>Build Your Mind and Body</p>
+      
+        <div class="card_wrappp">
+          <div class="card_headerr two">
+            <p><i class="fa-solid fa-compass-drafting"></i></p>
+          </div>
+          <div class="card_contenttt">
+            <h1 class="card_titleee"><b>DESARROLLADOR FRONT-END</b></h1>
+            <p class="card_texttt">Apasionado del desarrollo frontend, especializado en crear interfaces atractivas y funcionales para aplicaciones web. Me comprometo a aplicar las mejores prácticas en diseño web y desarrollo responsivo, explorando continuamente nuevas técnicas para mejorar la usabilidad. Valorando la colaboración efectiva en equipos multidisciplinarios, estoy entusiasmado por integrar mis conocimientos en ingeniería de sistemas para avanzar en el diseño y la funcionalidad de aplicaciones web modernas.</p>
+          </div>
+        </div>
+      
+        <div class="card_wrappp">
+          <div class="card_headerr three">
+            <p><i class="fa-solid fa-laptop-code"></i></p>
+          </div>
+          <div class="card_contenttt">
+            <h1 class="card_titleee"><b>DESARROLLADOR BACK-END</b></h1>
+            <p class="card_texttt">Entusiasta del desarrollo backend, especializado en diseñar y optimizar la estructura y lógica de aplicaciones web. Me enfoco en bases de datos, servidores e integración de sistemas para asegurar operaciones eficientes y seguras. Aplico prácticas avanzadas en programación y gestión de datos, explorando continuamente nuevas tecnologías para ofrecer soluciones innovadoras. Valorando la colaboración en equipos multidisciplinarios, busco combinar mis estudios en sistemas con experiencia práctica para avanzar en aplicaciones robustas y de alto rendimiento.</p>
+          </div>
+        </div>
+      </section>
+      
+      
+           <!--/* ********************************** */
+                   /*             CARUCEL            */
+                   /* ********************************** */-->
+                   <section>
+                    <h1  class="heading-1">SKILLS</h1>
+                    <div class="container mt-5 mb-5">
+                        <div class="slider">
+                            <div class="slider-container"> 
+                              <div class=" image-container" style="background-image: url(../IMG/CARRUSEL\ \(2\).png);"></div>
+                                <div class=" image-container" style="background-image: url(../IMG/2.png);"></div>
+                                <div class=" image-container" style="background-image: url(../IMG/CARRUSEL\ \(2\).png);"></div>
+                                <div class=" image-container" style="background-image: url(../IMG/2.png);"></div>
+                                
+                            </div>
+                        </div>    
+                    </div>
+                 </section>
+                 
+       <!--/* ********************************** */
+                   /*           SKILLS          */
+                   /* ********************************** */-->
+              
+                 <section class="container container-features">
+                  <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/fluency/96/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/></a>
+                    <div class="feature-content">
+                      <span><strong>JAVA</strong></span>
+                      <p>Back-end</p>
+                    </div>
+                  </div>
+                  <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/nolan/96/php-logo.png" alt="php-logo"/></a>
+                     <div class="feature-content">
+                       <span><strong>PHP</strong></span>
+                       <p>Back-end</p>
+                     </div>
+                   </div>
+                   <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/nolan/96/c-sharp-logo.png" alt="c-sharp-logo"/></a>
+                     <div class="feature-content">
+                       <span><strong>C#</strong></span>
+                       <p>Back-end</p>
+                     </div>
+                   </div>
+                   <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/color/96/spring-logo.png" alt="spring-logo"/></a>
+                     <div class="feature-content">
+                       <span><strong>SPRING BOOT</strong></span>
+                       <p>Back-end</p>
+                     </div>
+                   </div>
+                   <div class="card-feature">
+                    <a><img width="100" height="100" src="https://img.icons8.com/external-outline-black-m-oki-orlando/100/000000/external-net-web-services-outline-outline-black-m-oki-orlando.png" alt="external-net-web-services-outline-outline-black-m-oki-orlando"/></a>
+                     <div class="feature-content">
+                       <span><strong>.NET</strong></span>
+                       <p>Back-end</p>
+                     </div>
+                   </div>
+                   <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/color/96/javascript--v1.png" alt="javascript--v1"/></a>
+                     <div class="feature-content">
+                       <span><strong>JAVASCRIPT</strong></span>
+                       <p>Back-end & Front end </p>
+                     </div>
+                   </div>
+                  
+                   <!-- <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo.png" alt="external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo"/></a>
+                     <div class="feature-content">
+                       <span><strong>ANGULAR</strong></span>
+                       <p>Framework  </p>
+                     </div>
+                   </div> -->
+                   <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/color/96/html-5--v1.png" alt="html-5--v1"/></a>
+                     <div class="feature-content">
+                       <span><strong>HTML</strong></span>
+                       <p>Front end</p>
+                     </div>
+                   </div>
+                  <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/fluency/96/css3.png" alt="css3"/></a>
+                    <div class="feature-content">
+                      <span><strong>CSS</strong></span>
+                      <p>Front end</p>
+                    </div>
+                  </div>
+                  <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/color-glass/96/bootstrap.png" alt="bootstrap"/></a>
+                    <div class="feature-content">
+                      <span><strong>BOOTSRAP</strong></span>
+                      <p>Framework  </p>
+                    </div>
+                  </div>
+                  <!-- <div class="card-feature">
+                    <a><img width="75" height="75" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-kotlin-a-cross-platform-statically-typed-general-purpose-programming-language-with-type-inference-logo-shadow-tal-revivo.png" alt="external-kotlin-a-cross-platform-statically-typed-general-purpose-programming-language-with-type-inference-logo-shadow-tal-revivo"/></a>
+                    <div class="feature-content">
+                      <span><strong>KOTILM</strong></span>
+                      <p>Moviles Android</p>
+                    </div>
+                  </div> -->
+      
+      
+                  <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/color/96/microsoft-sql-server.png" alt="microsoft-sql-server"/></a>
+                    <div class="feature-content">
+                      <span><strong>SQL SERVER</strong></span>
+                      <p>Base de Datos</p>
+                    </div>
+                  </div>
+                  <div class="card-feature">
+                    <a><img width="96" height="96" src="https://img.icons8.com/fluency/96/my-sql.png" alt="my-sql"/></a>
+                    <div class="feature-content">
+                      <span><strong>MYSQL</strong></span>
+                      <p>Base de Datos</p>
+                    </div>
+                  </div>
+                  <!-- <div  class="card-feature">
+                    <a><img width="90" height="90" src="https://img.icons8.com/ios-filled/100/000000/sqlite.png" alt="sqlite"/></a>
+                    <div class="feature-content">
+                      <span><strong>SQLITE</strong></span>
+                      <p>Base de Datos</p>
+                    </div>
+                  </div> -->
+                </section>
+                 
+      
+           <!--/* ********************************** */
+              /*              CARDS EFECTO     */
+              /* ********************************** */-->
+              
+        <h1 class="heading-1">TRABAJOS DONDE PARTICIPÉ</h1>
+        <section class="container container-feeatures">
+        
+          <div class="tarjeta-wrap">
+            <div class="tarjeta">
+              <div class="adelante card01"></div>
+              <div class="atras">
+                <a style="color: white;" href="https://github.com/joshuapereda/interclubes" target="_blank">
+                  <i style="font-size: 60px;" class="fa-brands fa-github"></i>
+                  <h4 style="margin: 10px;">GITHUB</h4>
+                </a>
+                <a style="color: white;" href="https://interclubesperu.com/sistema/" target="_blank">
+                  <i style="font-size: 60px;" class="fa-solid fa-globe"></i>
+                  <h4 style="margin: 10px;"><strong>VISTA</strong></h4>
+                </a>
+              </div>
             </div>
-            <div class="features-content-plan">
-                <img class="imagen" src="/img/imagen2.png" alt="">
-                <p>Get Stronger for Preparation</p>
+          </div>
+          <div class="tarjeta-wrap">
+            <div class="tarjeta">
+              <div class="adelante card02"></div>
+              <div class="atras">
+                <a style="color: white;" href="https://github.com/joshuapereda/WebPortafolio"target="_blank"> <i style="font-size: 60px " style="margin-left: 80px" class="fa-brands fa-github"><h4 style="margin: 10px;">GITGUB</h4></i></a>
+                <a style="color: white;" href=""><i style="font-size: 60px"style="margin-left: 80px" class="fa-solid fa-globe"><h4 style="margin: 10px;"><strong>VISTA</strong></h4></i> </a>
+              </div>
             </div>
-            <div class="features-content-plan">
-                <img class="imagen" src="/img/imagen3.png" alt="">
-                <p>Improve your life</p>
+          </div>
+      
+          <div class="tarjeta-wrap">
+            <div class="tarjeta">
+              <div class="adelante card03"></div>
+              <div class="atras">
+                <a style="color: white;"  href="https://linktr.ee/PolleriaChifaElTitanic" target="_blank">
+                  <i style="font-size: 60px"style="margin-left: 80px" class="fa-solid fa-globe"><h4 style="margin: 10px;"><strong>VISTA</strong></h4></i> </a>
+              </div>
             </div>
-            
-
-    </main>
-    <h1><%- include('partials/footer') %></h1>
+          </div>
+          
+          <div class="tarjeta-wrap">
+            <div class="tarjeta">
+              <div class="adelante card04"></div>
+              <div class="atras">
+                <a style="color: white;"  href="https://linktr.ee/NeGoCiO.2024" target="_blank">
+                  <i style="font-size: 60px"style="margin-left: 80px" class="fa-solid fa-globe"><h4 style="margin: 10px;"><strong>VISTA</strong></h4></i> </a>
+              </div>
+            </div>
+          </div>    
+        </section>
+              
+          <br><br><br>
+           <!--/* ********************************** */
+              /*             FORMULARIO              */
+              /* ********************************** */-->
+              <section class="contact-section">
+                <div class="contact-container">
+                    <div class="contact-info-box">
+                        <div>
+                            <h1  class="heading-fro"> Datos de contacto</h1>
+                            <ul class="info-list">
+                                <li>
+                                    <span><img width="35" height="35" src="https://img.icons8.com/ios/50/workstation.png" alt="workstation"/></span>
+                                    <span class="from-mail">{P}CODEPER</span>
+                                </li>
+                                <li>
+                                    <span><a href="mailto: joshuadesihuas@hotmail.com"><img width="35" height="35" src="https://img.icons8.com/ink/48/gmail-new.png" alt="gmail-new"/></a></span>
+                                    <span><a class="from-mail" href="mailto: joshuadesihuas@hotmail.com">joshuadesihuas@hotmail.com</a></span>
+                                </li>
+                                <li>
+                                    <span><a href="mailto: joshuadesihuas@hotmail.com"><img width="32" height="32" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/external-outlook-workspace-support-dreamstale-lineal-dreamstale.png" alt="external-outlook-workspace-support-dreamstale-lineal-dreamstale"/></a></span>
+                                    <span><a class="from-mail" href="mailto: joshuadesihuas@gmail.com">joshuadesihuas@gmail.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.tiktok.com/@p.codeper?_t=8n9y8zqqAK5&_r=1" target="_blank"><i style="color: white; font-size: 30px;" class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="https://www.facebook.com/share/jmkT1hxYKmF23tmg/?mibextid=LQQJ4d" target="_blank"><i style="color: white; font-size: 30px;" class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/joshua_pl10?igsh=aTZxOHdieXBnZW00&utm_source=qr" target="_blank"><i style="color: white; font-size: 30px;" class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-form-box">
+                        <h1 class="heading-fro">Envíame un mensaje</h1>
+                          <form  class="form-wrapper"action="https://formspree.io/f/xeojjjdv" method="POST">
+                            <div class="input-box w50">
+                                <input type="text" name="first-name" required>
+                                <span>Nombre</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="last-name" required>
+                                <span>Apellido</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="email" name="email" required>
+                                <span>Correo Electrónico</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="mobile" required>
+                                <span>Teléfono Móvil</span>
+                            </div>
+                            <div class="input-box w100">
+                                <textarea name="message" required></textarea>
+                                <span>Escribe tu mensaje aquí...</span>
+                            </div>
+                            <div class="input-box w100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                            </form>
+                    </div>
+                </div>
+            </section>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        
+            <%- include('partials/footer') %>
+            <%- include('partials/boton') %>
 </body>
 </html>

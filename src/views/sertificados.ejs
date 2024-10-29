@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="icon" href="../IMG/logo.jpg" type="image/png">
+        <link rel="stylesheet" href="/css/estilos.css">
+        <title><%= title %></title>
+    </head>
+    <body>
+          <!--/* ********************************** */
+            /*             TEXTO Y IMAGEN            */
+            /* ********************************** */-->
+            <%- include('partials/navigation') %>
+            <%- include('partials/banner') %>
+            <section>
+                <div class="container mt-5 mb-5">
+                  <h1 class="heading-sertificado1">EDteam</h1>
+                    <img  src="../IMG/edteam.jpg" alt=""
+                     class="float-right ml-4 img-sertificado"> <!--float-right colocar ala derecha -->
+                     <h3 class="heading-sertificado">Certificado en Curso Básico de Programación - EDteam</h3>
+                    <p class="texto-sertificado">He completado exitosamente el curso básico de programación ofrecido por EDteam, una plataforma reconocida por su calidad educativa en el ámbito de la tecnología y desarrollo. Durante este curso, adquirí conocimientos fundamentales en:</p>
+                    <p  class="texto-sertificado" ><strong style="font-size: 50xp;">.</strong> Conceptos básicos de programación y lógica computacional.</p>
+                     <p class="texto-sertificado" ><strong style="font-size: 50xp;">.</strong> Estructuras de control (condicionales y bucles).</p>
+                     <p class="texto-sertificado" ><strong style="font-size: 50xp;">.</strong> Introducción a lenguajes de programación como Python, JavaScript, o similares.</p>
+                     <p class="texto-sertificado" ><strong style="font-size: 50xp;">.</strong> Manejo de variables, tipos de datos y operadores.</p>
+                     <p class="texto-sertificado" ><strong style="font-size: 50xp;">.</strong> Principios de desarrollo de software y buenas prácticas de codificación.</p>
+                      <p class="texto-sertificado" >
+                        Este certificado valida mi capacidad para comprender y aplicar principios básicos de programación, lo que me permite abordar problemas tecnológicos de manera lógica y eficiente, y sienta las bases para continuar mi desarrollo en el campo de la programación y el desarrollo de software.
+                      </p>
+                </div>
+              </section> 
+               <!--/* ********************************** */
+            /*         SERTIFICADO        */
+            /* ********************************** */-->
+            <div class="borde-sertificado">
+            <div class="container mt-5 mb-5">
+              <h1 class="heading-sertificado1">Sertificado</h1>
+              <img class="sertificado" src="../IMG/sertificado.png" alt="">
+            </div>
+          </div>
+          <br><br> <br><br><br><br><br><br><br>
+          <%- include('partials/footer') %>
+          <%- include('partials/boton') %>
+</body>
+</html>
